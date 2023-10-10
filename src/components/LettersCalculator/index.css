@@ -1,0 +1,115 @@
+/* Write your code here. */
+.app-container {
+  background-image: linear-gradient(to right, #1d976c 1%, #93f9b9 101%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.letters-calculator-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+}
+.calculator-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  order: 1;
+}
+
+@media screen and (min-width: 992px) {
+  .calculator-container {
+    align-items: flex-start;
+    order: 0;
+  }
+}
+.heading {
+  text-align: center;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 600;
+}
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 46px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .heading {
+    text-align: left;
+    font-size: 46px;
+  }
+}
+.input-phrase-container {
+  display: flex;
+  flex-direction: column;
+}
+.label {
+  color: #ffffff;
+  font-size: 12px;
+  font-family: 'Roboto';
+  font-weight: 700;
+}
+.letters-input {
+  color: #ffffff;
+  background-color: transparent;
+  font-size: 14px;
+  font-family: 'Roboto';
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+  font-weight: 500;
+  outline: none;
+  margin-top: 8px;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+@media screen and (min-width: 768px) {
+  .letters-input {
+    width: 350px;
+  }
+}
+.letters-count {
+  align-self: center;
+  color: #219a6f;
+  background-color: #ffffff;
+  font-size: 24px;
+  font-family: 'Roboto';
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 12px;
+  font-weight: 800;
+  margin-top: 32px;
+  padding: 18px;
+}
+@media screen and (min-width: 768px) {
+  .letters-count {
+    align-self: start;
+    padding: 24px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+.letters-calculator-image {
+  width: 100%;
+  order: 0;
+}
+@media screen and (min-width: 992px) {
+  .letters-calculator-image {
+    width: 550px;
+    order: 1;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .letters-calculator-image {
+    width: 720px;
+    order: 1;
+  }
+}

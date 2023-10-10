@@ -1,4 +1,4 @@
-In this project, let's build a **Letters Calculator** by applying the concepts we have learned till now.
+In this project, I have build a **Letters Calculator** by applying the react concepts.
 
 ### Refer to the image below:
 
@@ -18,50 +18,16 @@ In this project, let's build a **Letters Calculator** by applying the concepts w
 
 </details>
 
-### Set Up Instructions
-
-<details>
-<summary>Click to view</summary>
-
-- Download dependencies by running `npm install`
-- Start up the app using `npm start`
-</details>
-
-### Completion Instructions
-
-<details>
-<summary>Functionality to be added</summary>
-<br/>
-
-The app must have the following functionalities
-
-- When a non-empty value is provided in the input, then the count of letters provided should be displayed
-
-</details>
 
 <details>
 <summary>Implementation Files</summary>
 <br/>
 
-Use these files to complete the implementation:
+Use these files to see the implementation:
 
 - `src/components/LettersCalculator/index.js`
 - `src/components/LettersCalculator/index.css`
 </details>
-
-### Quick Tips
-
-<details>
-<summary>Click to view</summary>
-<br>
-
-- You can use the below `outline` CSS property for buttons and input elements to remove the highlighting when the elements are clicked
-
-  ```
-    outline: none;
-  ```
-
-  </details>
 
 ### Resources
 
@@ -91,10 +57,3 @@ Use these files to complete the implementation:
 - Roboto
 
 </details>
-
-> ### _Things to Keep in Mind_
->
-> - All components you implement should go in the `src/components` directory.
-> - Don't change the component folder names as those are the files being imported into the tests.
-> - **Do not remove the pre-filled code**
-> - Want to quickly review some of the concepts you’ve been learning? Take a look at the Cheat Sheets.
